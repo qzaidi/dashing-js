@@ -1,7 +1,7 @@
 var dashing = require('dashing-js').Dashing();
 
 // Set your auth token here
-//dashing.auth_token = 'YOUR_AUTH_TOKEN';
+dashing.auth_token = '1a2b3c4d5e6f';
 
 // Set cors allowed domains here
 //dashing.allowedOrigins = 'https://www.google.com';
