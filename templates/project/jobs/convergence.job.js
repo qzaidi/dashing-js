@@ -7,7 +7,7 @@ var last_x = points[points.length - 1].x;
 
 setInterval(function() {
   points.shift();
-  points.push({x: ++last_x, y: Math.floor(Math.random() * 50)});
+  points.push({x: ++last_x, y: [ Math.floor(Math.random() * 50), Math.floor(Math.random()*50) ]});
 
   send_event('convergence', {points: points});
 }, 2 * 1000);
