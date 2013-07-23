@@ -31,7 +31,7 @@ class Dashing.Graph extends Dashing.Widget
       width: width
       height: height
       stroke: true
-      #renderer: 'area'
+      renderer: @get('renderer') || 'area'
       series: series
     )
  
